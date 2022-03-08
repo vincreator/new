@@ -1,0 +1,50 @@
+{
+    "name": "hentoi-bot",
+    "version": "0.1",
+    "description": "initial bot release",
+    "main": "sec/server,js",
+    "scripts": {
+        "build": "tsc --build tsconfig.json",
+        "start": "node built/src/server"
+    },
+    "engines": {
+        "node": ">=14.x"
+    },
+    "repository": {
+        "url": "https://github.com/vincreator/new"
+    },
+    "license": "MIT",
+    "keywords": [
+        "hentai",
+        "telegram",
+        "bot"
+    ],
+    "devDependencies": {
+        "@types/adm-zip":"^0.4.34",
+        "@types/archiver": "^5.1.1",
+        "@types/cors": "^2.8.12",
+        "@types/express" "^4.17.13".
+        "@types/i18n": "^0.13.1",
+        "@typescript-eslint/eslint-plugin": "^5.3.0",
+        "@typescript-eslint/parser: "^5.3.0",
+        ""eslint": "^8.1.0"
+    },
+    "dependencies": {
+        "adm-zip": "^0.5.9",
+        "cherio": "#",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "got": "^12.0.1",
+        "i18next": "^21.6.13",
+        "isomorphic-fetch": "^3.0.0",
+        "moment":"^2.29.1",
+        "mongoose":"^6.2.4",
+        "superagent":"^7.1.1",
+        "telegra.ph": "^1.0.1",
+        "telegraf": "^4.7.0",
+        "telegraph-uploader": "^2.0.0",
+        "typecript": "^4.4.4"
+    }
+
+}
